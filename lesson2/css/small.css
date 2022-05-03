@@ -45,7 +45,6 @@ h1, h2, h3, h4, a{
 
 main{
     max-width: 760px;
-    margin: 0.5em;
     padding: 0.5em;
     display: grid flex;
     font-family: 'Esteban', serif, "Times New Roman", "Times";
