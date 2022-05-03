@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    background-color: antiquewhite;
+
+}
+
+
+header, main, footer {
+    margin: 0 auto;
+    line-height: 1.7em;
+}
+
+header{
+    width: 100%;
+    margin: 0;
+    padding: 2em;
+    background-color: #ff5661;
+    color:#fff8f1;
+    align-items: center;
+    text-align: center;
+    display: box;
+
+}
+
+footer {
+    width: 100%;
+}
+
+header h2{
+    font-style: normal;
+}
+
+h1, h2, h3, h4, a{
+    font-family: "Montserrat", sans-serif, "Helvetica", "Arial";
+    line-height: 1.7em;
+}
+
+main{
+    max-width: 760px;
+    margin: 0.5em;
+    padding: 0.5em;
+    display: grid flex;
+    font-family: 'Esteban', serif, "Times New Roman", "Times";
+    align-items: start;
+    justify-items: center;
+}
+
+.contrast, .proximity, .vhierarchy{
+  background-color:white;
+  padding: 2em;
+  margin: 1em;
+  border-radius: 25px;
+}
+
+.contrast h3, .proximity h3, .vhierarchy h3{
+    grid-row: 1/2;
+    color: #ff5661;
+}
+.contrast h4, .proximity h4, .vhierarchy h4{
+    grid-row: 2/3;
+}
+
+.contrast img, .proximity img, .vhierarchy img{
+    grid-row: 3/4;
+    padding: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contrast p, .proximity p, .vhierarchy p{
+    grid-row: 4/5;
+}
+
+footer{
+    margin: 1em auto;
+    align-items: center;
+    text-align: center;
+    font-family: "Montserrat", sans-serif, "Helvetica", "Arial";
+    font-size: 0.9em;
+  }
