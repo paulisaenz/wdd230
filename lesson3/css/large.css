@@ -1,0 +1,27 @@
+@media only screen and (min-width: 60em) {
+	h1 {
+		font-size: 2rem;
+	}
+
+    nav{
+        margin: 1.5em;
+    }
+
+    nav li{
+        border: 2em;
+    }
+
+	nav a {
+		font-size: 1.1rem;
+	}
+
+    nav a:hover {
+        background-color: #be6e46;
+        border-color: #be6e46;
+      }
+
+	main {
+        display: grid;
+		/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+	}
+}
