@@ -7,4 +7,9 @@
 	/* Flex *********************/
 	 		nav ul { display: flex; }
 		  nav ul li { flex: 1 1 auto; }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }

@@ -67,6 +67,7 @@ main{
     font-family: 'Esteban', serif, "Times New Roman", "Times";
     align-items: start;
     justify-items: center;
+    display: grid;
 }
 
 .colors {
