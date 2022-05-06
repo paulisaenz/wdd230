@@ -8,7 +8,7 @@
 	 		nav ul { display: flex; }
 		  nav ul li { flex: 1 1 auto; }
 
-    .index {
+    .index, .target-audience, .font {
         grid-template-columns: 1fr 1fr;
     }
 
@@ -51,10 +51,6 @@
         padding: 0 1em;
     }
 
-    .target-audience{
-        grid-template-columns: 1fr 1fr;
-    }
-
     .target{
         grid-column: 1/2;
     }
@@ -80,4 +76,5 @@
         padding: 1em;
     }
 
+    
 }
