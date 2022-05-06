@@ -34,6 +34,10 @@ h1, h2, h3, h4, a{
     line-height: 1.7em;
 }
 
+h2{
+    color: #775253;
+}
+
 nav {
 	background-color: #00A5DF;
 	margin: 0 auto;
@@ -100,6 +104,7 @@ main{
   p.colored {
     background-color: #00A5DF;
     color: #F7FCFE;
+    padding: 1em;
   }
 
 footer{

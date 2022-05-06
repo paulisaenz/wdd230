@@ -19,9 +19,4 @@
         background-color: #be6e46;
         border-color: #be6e46;
       }
-
-	main {
-        display: grid;
-		/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
-	}
 }
