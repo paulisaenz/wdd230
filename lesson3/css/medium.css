@@ -8,7 +8,7 @@
 	 		nav ul { display: flex; }
 		  nav ul li { flex: 1 1 auto; }
 
-    main {
+    .index {
         grid-template-columns: 1fr 1fr;
     }
 
@@ -49,6 +49,35 @@
     .black-brand{
         grid-column: 3/4;
         padding: 0 1em;
+    }
+
+    .target-audience{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .target{
+        grid-column: 1/2;
+    }
+
+    .scenarios{
+        grid-column: 2/3;
+    }
+
+    .francisco{
+        grid-column: 1/2;
+    }
+
+    .jorge{
+        grid-column: 2/3;
+    }
+
+    .color-html h2, .color-html p{
+        text-align: center;
+        padding: 0.5em;
+    }
+
+    .colors{
+        padding: 1em;
     }
 
 }
