@@ -10,8 +10,8 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
 
-// Last update
-document.querySelector("#lastupdate").innerHTML = `Last Updated: ${document.lastModified}`
+// Last modification
+document.querySelector("#lastmodification").innerHTML = `Last Modification: ${document.lastModified}`
 
 
 // Hamburger menu
