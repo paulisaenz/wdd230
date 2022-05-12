@@ -1,0 +1,25 @@
+.date,
+aside {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color: #eee;
+}
+
+
+#hamburgerButton span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerButton span:nth-child(2) {
+    display: none;
+}
+
+
+#hamburgerButton.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerButton.open span:nth-child(2) {
+    display: block;
+}
