@@ -30,6 +30,7 @@ header img{
 .logo {
     display: flex;
     align-items: center;
+    size: 20%;
 }
 
 .date,
@@ -37,10 +38,44 @@ aside {
 	margin: 0.5rem;
 	border: 1px solid rgba(255, 255, 255, 0.664);
 	padding: 0.75rem;
-	background-color: rgba(255, 255, 255, 0.664);
+	background-color: rgba(255, 255, 255, 0.418);
     color:black;
     text-align: center;
     color: white;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+nav ul {
+    display: none;
+	list-style-type: none;
+	overflow: hidden;
+    padding: 0;
+}
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	transition: 0.5s;
+}
+
+nav a:hover {
+    background-color: #be6e46;
+  }
+
+.active {
+	background-color: #775253;
+}
+
+nav ul.open {
+    display: block;
 }
 
 #hamburgerButton {
@@ -66,35 +101,6 @@ aside {
 #hamburgerButton.open span:nth-child(2) {
     display: block;
 }
-
-
-nav {
-	margin: 0 auto;
-	max-width: 100%;
-}
-nav ul {
-	list-style-type: none;
-	overflow: hidden;
-    padding: 0;
-}
-nav ul li a {
-	display: block;
-	color: #fff;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
-	transition: 0.5s;
-}
-
-nav a:hover {
-    background-color: #be6e46;
-  }
-
-.active {
-	background-color: #775253;
-}
-
 
 
 footer{
