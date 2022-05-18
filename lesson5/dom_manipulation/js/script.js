@@ -3,7 +3,7 @@ const button = document.querySelector('#button');
 const list = document.querySelector('#list');
 
 button.addEventListener('click', function() {
-    const myItem = button.value;
+    const myItem = input.value;
     input.value = '';
 
     const listItem = document.createElement('li');
