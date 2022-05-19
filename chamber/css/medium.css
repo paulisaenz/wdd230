@@ -51,6 +51,40 @@
         grid-column: 3/4;
     }
   
+    /* Footer */
 
+    footer {
+        display: grid;
+    }
+
+    .infologo {
+        grid-row: 1/2;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .infologo img {
+        padding: 0.5rem;
+    }
+
+    .infologo h4 {
+        padding: 0.5rem;
+        text-align: left;
+    }
+
+
+    .projectdata1 { 
+        display: none;
+    }
+
+    .projectdata2{
+        display: block;
+        margin: 0;
+    }
+
+
+    hr {
+        display: none;
+    }
 }
 

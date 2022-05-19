@@ -221,3 +221,7 @@ footer{
     font-family: "Raleway", sans-serif, "Helvetica", "Arial";
     font-size: 0.9em;
 }
+
+.projectdata2 { 
+    display: none;
+}
