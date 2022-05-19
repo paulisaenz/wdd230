@@ -5,28 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Plata Chamber of Commerce</title>
     <link rel="shortcut icon" href="favicon.png">
-    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/normalize.css">
-
-
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Esteban&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
 </head>
 <body>
 
     <header>
         <div class="logo">
-            <img src="img/la_plata_logo_white.svg" alt="La Plata Chamber of     Commerce Logo">
-            <h1>La Plata
-                <span>
-                Chamber of Commerce
-                </span>
-            </h1>
+            <img src="img/la_plata_logo_white.svg" alt="La Plata Chamber of Commerce Logo">
+            <section class="headings">
+                <h1>La Plata
+                    <p class="phrase">
+                        Chamber of Commerce
+                    </p>
+                </h1>
+            </section>
         </div>
         <nav>
             <button id="hamburgerButton">
                 <span>&#9776;</span>
                 <span>x</span>
             </button>
-            <ul>
+            <ul id="primaryNav">
+                <!-- <li class="hamMenu"><a href="#">Menu</a></li> -->
                 <li><a href="./">Discover</a></li>
                 <li><a href="./">Directory</a></li>
                 <li><a href="./">Join</a></li>
@@ -56,13 +62,13 @@
             <p>News Release</p>
         </div>
         <div class="spotlight">
-            <div class="spotlight-1">
+            <div class="spotlight1">
                 <p>Spotlight 1</p>
             </div>
-            <div class="spotlight-2">
+            <div class="spotlight2">
                 <p>Spotlight 2</p>
             </div>
-            <div class="spotlight-3">
+            <div class="spotlight3">
                 <p>Spotlight 3</p>
             </div>
         </div>
