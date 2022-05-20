@@ -37,6 +37,7 @@
     }
 
     .join {
+        display: block;
         grid-row: 4/5;
         grid-column: 1/4;
     }
