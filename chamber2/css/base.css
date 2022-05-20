@@ -10,11 +10,12 @@ body{
     padding: 0;
     margin: 0;
 }
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif, "Helvetica", "Arial";
+}
 /* Header */
 
 header {
-    padding: 0.7rem;
     background: #00A5DF;
     color:whitesmoke;
     width: 100%;
@@ -23,11 +24,31 @@ header {
     font-family: "Raleway", sans-serif, "Helvetica", "Arial";
     font-size: 0.9em;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     align-items: center;
     justify-content: space-between;
 }
+
+
+/* Banner */
+.banner {
+    display: none;
+    align-items: start;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    color:#000000;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* .closebutton {
+    font-size: 1.5rem;
+    font-weight: 400;
+} */
+
+
+/* Logo */
 
 .logo {
     padding: 1.3rem;
@@ -163,12 +184,11 @@ main {
 }
 
 main div {
-    background-color: #00000021;
     color: #000000;
     margin: 0.3rem;
     padding: 1rem;
     min-height: 10rem;
-    border: 1px solid #00000059;
+    /* border: 1px solid #00000059; */
     align-items: center;
     text-align: center;
 
@@ -176,18 +196,45 @@ main div {
 
 .hero {
     grid-row: 1/2;
+    background-image: url('/chamber2/img/laplata.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    padding: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.hero h2{
+    background-color: #775253;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    grid-row: 1/2;
 }
 
 .event {
     grid-row: 2/3;
 }
 
+.event p{
+    line-height: 2rem;
+}
+
 .weather {
     grid-row: 3/4;
+    background: #00A5DF;
+    color:whitesmoke;
 }
 
 .news {
     grid-row: 4/5;
+    background-color: white;
+}
+
+.news p{
+    line-height: 2rem;
 }
 
 .spotlight {
@@ -207,6 +254,10 @@ main div {
     display: none;
 }
 
+.spotlight p {
+    font-size: 0.8rem;
+}
+
 /* Footer */
 
 footer{
@@ -219,6 +270,11 @@ footer{
     text-align: center;
     font-family: "Raleway", sans-serif, "Helvetica", "Arial";
     font-size: 0.9em;
+}
+
+.infologo img {
+    width: 20%;
+	height: auto;
 }
 
 .projectdata2 { 

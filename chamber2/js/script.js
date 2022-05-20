@@ -23,3 +23,19 @@ function toggleMenu(){
 
 const x = document.getElementById("hamburgerButton")
 x.onclick=toggleMenu
+
+
+// Banner
+
+let d = new Date().getDay();
+
+const banner = document.querySelector("#banner");
+if (d === 1 || d === 2) {
+    banner.style.display = "block;"
+}
+
+// const close = document.querySelector("#closebutton");
+
+// close.addEventListener("click", function() {
+//         banner.style.display = "none";
+// });
