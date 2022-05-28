@@ -196,10 +196,10 @@ main div {
 
 .hero {
     grid-row: 1/2;
-    background-image: url('/chamber2/img/laplata.jpg');
+    /* background-image: url('/chamber2/img/laplata.jpg'); 
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;*/
     display: grid;
     padding: 0;
     grid-template-columns: 1fr 1fr 1fr;
