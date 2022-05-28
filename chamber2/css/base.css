@@ -200,11 +200,17 @@ main div {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;*/
-    display: grid;
+    /* display: grid;
     padding: 0;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
 }
+
+.hero img {
+    height: 100%;
+    width: auto;
+}
+
 
 .hero h2{
     background-color: #775253;
@@ -212,9 +218,11 @@ main div {
     padding: 0.5rem;
     font-size: 1.4rem;
     grid-row: 1/2;
+    z-index: 1;
 }
 
 .event {
+    margin-top: 4rem;
     grid-row: 2/3;
 }
 
