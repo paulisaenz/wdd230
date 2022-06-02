@@ -29,6 +29,4 @@ img {
 [data-src] {
     min-width: 50px;
     min-height: 50px;
-    filter: blur(0em);
-    transition: filter 1.0s;
 }
