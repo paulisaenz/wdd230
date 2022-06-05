@@ -176,14 +176,14 @@ nav ul.open {
 
 /* Main */
 
-main {
+.home-page {
     font-family: "Esteban", serif;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     padding: 1rem;
 }
 
-main div {
+.home-page div {
     color: #000000;
     margin: 0.3rem;
     padding: 1rem;
@@ -196,21 +196,15 @@ main div {
 
 .hero {
     grid-row: 1/2;
-    /* background-image: url('/chamber2/img/laplata.jpg'); 
+    background-image: url('/chamber2/img/laplata.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;*/
-    /* display: grid;
+    background-position: center;
+    display: grid;
     padding: 0;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-rows: 1fr 1fr 1fr;
 }
-
-.hero img {
-    height: 100%;
-    width: auto;
-}
-
 
 .hero h2{
     background-color: #775253;
@@ -218,7 +212,6 @@ main div {
     padding: 0.5rem;
     font-size: 1.4rem;
     grid-row: 1/2;
-    z-index: 1;
 }
 
 .event {
@@ -265,6 +258,23 @@ main div {
 .spotlight p {
     font-size: 0.8rem;
 }
+
+/* Discover Page */
+
+#discover-page {
+    font-family: "Esteban", serif;
+    padding: 1rem;
+    margin: 0.3rem;
+}
+
+#discover-pics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    padding: 1rem;
+    size: 100%;
+}
+
 
 /* Footer */
 
