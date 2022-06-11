@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Plata Chamber of Commerce</title>
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Esteban&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="banner">
+        🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+        <!-- <span class="closebutton">&times;</span> -->
+      </div>
+      <div class="logo">
+        <img
+          src="img/laplata_logo_white.svg"
+          alt="La Plata Chamber of Commerce Logo"
+        />
+        <section class="headings">
+          <h1>
+            La Plata
+            <p class="phrase">Chamber of Commerce</p>
+          </h1>
+        </section>
+      </div>
+      <nav>
+        <button id="hamburgerButton">
+          <span>&#9776;</span>
+          <span>&times;</span>
+        </button>
+        <ul id="primaryNav">
+          <!-- <li class="hamMenu"><a href="#">Menu</a></li> -->
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="./">Directory</a></li>
+          <li><a href="./">Join</a></li>
+          <li><a href="./">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="https://www.linkedin.com/">LinkedIn</a>
+      </div>
+      <div class="date"></div>
+    </header>
+
+    <main class="join-page">
+      <div class="membership-form">
+        <form method="get" action="thankyou.html">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label class="top"
+              >First Name*<input type="text" name="fname" required
+            /></label>
+            <label class="top"
+              >Last Name*<input type="text" name="lname" required
+            /></label>
+
+            <label class="top"
+              >Email*<input
+                type="email"
+                name="email"
+                placeholder="youremail@email.com"
+                required
+            /></label>
+
+            <label class="top"
+              >Phone <input type="tel" name="phone" placeholder="1235551234"
+            /></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>About Your Business</legend>
+
+            <label class="top"
+              >Business Name*<input type="text" name="bname"
+            /></label>
+
+            <label class="top"
+              >Business Position Title <input type="text" name="title"
+            /></label>
+
+            <label class="top"
+              >Describe Your Business
+              <textarea
+                name="businessDescripion"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>What kind of membership are you looking for?</legend>
+            <label class="sbs"
+              ><input type="radio" name="membership" value="np" /> NP Membership
+              (for Non-Profit Organizations only)</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="membership" value="bronze" /> Bronze
+              Membership</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="membership" value="silver" /> Silver
+              Membership</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="membership" value="gold" /> Gold
+              Membership</label
+            >
+          </fieldset>
+
+          <input type="submit" value="Join our chamber!" class="submitBtn" />
+        </form>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="infologo">
+        <img
+          src="img/laplata_logo.svg"
+          alt="La Plata Chamber of Commerce Logo"
+        />
+        <h4>La Plata Chamber of Commerce</h4>
+        <p>
+          8 & 50<br />
+          La Plata, Buenos Aires
+        </p>
+        <p class="contactinfo">
+          info@laplatachamber.com <br />
+          +54 9 221 437-1973
+        </p>
+      </div>
+      <hr />
+      <div class="projectdata1">
+        <p>&copy; 2022 La Plata Chamber</p>
+        <p>Paula Sáenz</p>
+        <p>WDD 230 Project</p>
+      </div>
+      <div class="projectdata2">
+        <p>&copy; 2022 La Plata Chamber | Paula Sáenz | WDD 230 Project</p>
+      </div>
+      <p id="lastmodification"></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

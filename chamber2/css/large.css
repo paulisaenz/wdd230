@@ -79,4 +79,21 @@
     #discover-pics img{
         size: auto 100%;
     }
+
+
+    /*Join Page*/
+    .join-page{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .membership-form{
+        grid-column: 1/2;
+    }
+
+
+    /*Form Join Page*/
+    form label.sbs {
+        padding: 0.4rem 0;
+    }
 }
