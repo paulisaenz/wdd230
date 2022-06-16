@@ -7,33 +7,41 @@ async function getProphets() {
   if (response.ok) {
     let data = await response.json();
     //console.log(data);
-    buildProphetCards();
+    //console.log(data.prophets);
+    buildProphetCards(data.prophets);
   } else {
-    throw Error (response.statusText)
+    throw Error(response.statusText);
   }
 }
 
 function buildProphetCards(data) {
-
-  data.prophets.forEach(prophet => {
+  data.forEach((prophet) => {
     let card = document.createElement("section");
     let h2 = document.createElement("h2");
-    let p = document.createElement("p");
+    let birthDate = document.createElement("p");
+    let birthPlace = document.createElement("p");
+    let length = document.createElement("p");
     let img = document.createElement("img");
 
     h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
-    p.innerHTML = `Location of Birth: ${prophet.birthplace}`;
+    birthDate.innerHTML = `Date of Birth: ${prophet.birthdate}.`;
+    birthPlace.innerHTML = `Place of Birth: ${prophet.birthplace}.`;
+    length.innerHTML = `He was a prophet for ${prophet.length} years.`;
     img.setAttribute("src", prophet.imageurl);
-    img.setAttribute("alt", `Portait of ${prophet.name} ${prophet.lastname} - ${order}° Latter-day President`);
+    img.setAttribute(
+      "alt",
+      `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}° Latter-day President`
+    );
+
     img.setAttribute("loading", "lazy");
 
-
     card.append(h2);
-    card.append(p);
+    card.append(birthDate);
+    card.append(birthPlace);
     card.append(img);
+    card.append(length);
     cards.append(card);
   });
 }
-
 
 getProphets();
