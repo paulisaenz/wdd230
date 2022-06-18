@@ -21,6 +21,7 @@ function buildBusinessCards(data) {
     let address = document.createElement("p");
     let phone = document.createElement("p");
     let webpage = document.createElement("p");
+    let membership = document.createElement("p")
     let img = document.createElement("img");
 
     card.classList.add("maincards");
@@ -29,6 +30,7 @@ function buildBusinessCards(data) {
     address.innerHTML = `📍 ${business.address}`;
     phone.innerHTML = `📞 ${business.phone}`;
     webpage.innerHTML = `🌐 <a href= "${business.web}" target="_blank">Website</a> `;
+    membership.innerHTML = `🎖️ ${business.membership}`
     img.setAttribute("src", business.imageurl);
     img.setAttribute(
       "alt",
