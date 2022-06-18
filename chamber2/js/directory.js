@@ -25,6 +25,7 @@ function buildBusinessCards(data) {
     let img = document.createElement("img");
 
     card.classList.add("maincards");
+    img.classList.add("card-img")
 
     name.innerHTML = `<b>${business.name}</b>`;
     address.innerHTML = `📍 ${business.address}`;

@@ -449,7 +449,7 @@ section a {
 	font-size: 0.9rem;
 }
 
-img {
+.card-img {
 	height: 90px;
 	max-width: 100%;
     margin-top: 0.5rem;
