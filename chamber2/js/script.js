@@ -79,3 +79,19 @@ numVisits++;
 // store the current date in number of Milliseconds 
 // numMills = Date.now();
 // localStorage.setItem("mills-ls", numMills);
+
+//Directory Page
+
+const gridbutton = document.querySelector("#cards");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
+
+
+gridbutton.addEventListener("click", showList);
+
+listbutton.addEventListener("click", showList);
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
