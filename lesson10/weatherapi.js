@@ -26,7 +26,6 @@ async function apiFetch() {
 apiFetch();
 
 // Weather and images
-
 function displayResults(weatherData) {
   currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(
     0
@@ -41,5 +40,4 @@ function displayResults(weatherData) {
 }
 
 // Capialize the figcaption
-
 document.querySelector("figcaption").style.textTransform = "capitalize";
