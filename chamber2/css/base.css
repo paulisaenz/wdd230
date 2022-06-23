@@ -3,7 +3,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /* Apply a natural box layout model to all elements */
 * {
-    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
 body{
@@ -176,14 +176,14 @@ nav ul.open {
 
 /* Main */
 
-.home-page {
+#home-page {
     font-family: "Esteban", serif;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     padding: 1rem;
 }
 
-.home-page div {
+#home-page div {
     color: #000000;
     margin: 0.3rem;
     padding: 1rem;

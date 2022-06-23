@@ -34,8 +34,8 @@
             <ul id="primaryNav">
                 <!-- <li class="hamMenu"><a href="#">Menu</a></li> -->
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="./">Directory</a></li>
-                <li><a href="./">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
                 <li><a href="./">Contact</a></li>
             </ul>
         </nav>
@@ -66,11 +66,11 @@
         </div>
         <div class="weather">
             <h2>Weather</h2>
-            <h4>Partly Cloudy</h4>
+            <h4 id="current-weather"></h4>
+            <p id="current-temp"></p>
             <img src="img/weather.png" alt="Partly Cloudy image">
             <hr>
-            <p>Wind Speed: 2.5 km/h <br>
-            Wind Chill: N/A</p>
+            <p id="wind"></p>
         </div>
         <div class="news">
             <h2>News Release</h2>
@@ -129,6 +129,7 @@
    </footer>
 
 <script src="js/script.js"></script>
+<script src="js/weatherapi.js"></script>
 
 </body>
 </html>

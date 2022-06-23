@@ -4,7 +4,7 @@
         width: 30%;
     }
 
-    .home-page {
+    #home-page {
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: auto;
     }
