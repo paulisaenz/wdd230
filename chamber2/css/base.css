@@ -1,4 +1,4 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.*/
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /* Apply a natural box layout model to all elements */
@@ -19,7 +19,6 @@ header {
     background: #00A5DF;
     color:whitesmoke;
     width: 100%;
-    margin: 1em auto;
     align-items: center;
     font-family: "Raleway", sans-serif, "Helvetica", "Arial";
     font-size: 0.9em;
@@ -81,13 +80,10 @@ header {
 
 /* Social */
 
-.social {
+.social {  
 	margin-right: 1.5rem;
-}
+    width: 2.5rem;
 
-.social svg {
-	width: 25px;
-	height: auto;
 }
 
 /* Date */
@@ -180,7 +176,6 @@ nav ul.open {
     font-family: "Esteban", serif;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding: 1rem;
 }
 
 #home-page div {
@@ -226,16 +221,36 @@ nav ul.open {
 .weather {
     grid-row: 3/4;
     background: #00A5DF;
-    color:whitesmoke;
+}
+
+.weather p, .weather h2, .weather h4, .weather h6, .weather hr {
+    color: white;
+}
+
+#weather-icon {
+    height: 200px;
+    width: auto;
 }
 
 .news {
     grid-row: 4/5;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
 }
 
-.news p{
+.news h3 {
+    color: #775253;
+}
+
+.news p {
     line-height: 2rem;
+    text-align: left;
+}
+
+.news hr {
+    width: 100%;
 }
 
 .spotlight {
@@ -256,7 +271,12 @@ nav ul.open {
 }
 
 .spotlight p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+}
+
+hr {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* Discover Page */
@@ -361,7 +381,6 @@ footer{
     background-color: black;
     color:whitesmoke;
     width: 100%;
-    margin: 1em auto;
     align-items: center;
     text-align: center;
     font-family: "Raleway", sans-serif, "Helvetica", "Arial";

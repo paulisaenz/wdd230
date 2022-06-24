@@ -17,6 +17,13 @@
     .news {
         grid-row: 2/3;
         grid-column: 1/4;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .news p{
+        margin-left: 6rem;
+        margin-right: 6rem;
     }
 
     .spotlight {

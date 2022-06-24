@@ -2,7 +2,7 @@
 const currentTemp = document.querySelector("#current-temp");
 const currentWeather = document.querySelector("#current-weather");
 const wind = document.querySelector("#wind")
-//const weatherIcon = document.querySelector("#weather-icon");
+const weatherIcon = document.querySelector("#weather-icon");
 
 // API URL
 const url =
@@ -39,11 +39,15 @@ function displayResults(weatherData) {
   wind.innerHTML = `Wind Speed: ${weatherData.wind.speed} km/h <br>
   Wind Chill: N/A`
 
-  //const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+  const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+  const desc = weatherData.weather[0].description;
 
-  //weatherIcon.setAttribute("src", iconsrc);
-  //weatherIcon.setAttribute("alt", desc);
+  weatherIcon.setAttribute("src", iconsrc);
+  weatherIcon.setAttribute("alt", desc);
+  captionDesc.innerHTML = desc;
 }
 
 // Capialize current weather
 document.querySelector("#current-weather").style.textTransform = "capitalize";
+
+// Windchill
