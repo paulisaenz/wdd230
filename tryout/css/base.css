@@ -1,0 +1,217 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.*/
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/* Apply a natural box layout model to all elements */
+* {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif, "Helvetica", "Arial";
+}
+
+
+/* Header */
+
+header {
+    background: #00A5DF;
+    color:whitesmoke;
+    width: 100%;
+    align-items: center;
+    font-family: "Raleway", sans-serif, "Helvetica", "Arial";
+    font-size: 0.9em;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Banner */
+.banner {
+    display: none;
+    align-items: start;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    color:#000000;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* .closebutton {
+    font-size: 1.5rem;
+    font-weight: 400;
+} */
+
+
+/* Logo */
+
+.logo {
+    padding: 1.3rem;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    justify-content: space-between;
+}
+
+.logo img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+    flex-direction: column;
+	margin-left: 0.5rem;
+    line-height: 0.5rem;
+    margin: 1em;
+}
+
+.headings h1 {
+	font-size: 1.5rem;
+}
+
+.phrase {
+	font-size: 1rem;
+}
+
+/* Date */
+
+.date, aside {
+	margin: 1rem;
+	border: 1px solid rgba(255, 255, 255, 0.664);
+	padding: 0.75rem;
+	background-color: rgba(255, 255, 255, 0.418);
+    color:black;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+
+/* Nav bar */
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+nav ul {
+    display: none;
+	list-style-type: none;
+	overflow: hidden;
+    padding: 0;
+}
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	transition: 0.5s;
+}
+
+nav a:hover {
+    background-color: #be6e46;
+}
+
+.active {
+	background-color: #775253;
+}
+
+nav ul.open {
+    display: block;
+}
+
+/* Hamburger Button */
+
+#hamburgerButton {
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0.3em;
+}
+
+#hamburgerButton span:nth-child(1) {
+    display: block;
+    color: white;
+    padding: 0.2rem;
+}
+
+#hamburgerButton span:nth-child(2) {
+    display: none;
+    color: white;
+    padding: 0.2rem;
+}
+
+
+#hamburgerButton.open span:nth-child(1) {
+    display: none;
+    color: white;
+    padding: 0.2rem;
+}
+
+#hamburgerButton.open span:nth-child(2) {
+    display: block;
+    color: white;
+    padding: 0.2rem;
+}
+
+
+/* Footer */
+
+footer{
+    padding: 2em;
+    background-color: black;
+    color:whitesmoke;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-family: "Raleway", sans-serif, "Helvetica", "Arial";
+    font-size: 0.9em;
+
+}
+
+.infologo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lpfooterimg {
+    width: 50%;
+	height: auto;
+}
+
+.projectdata2 { 
+    display: none;
+}
+
+hr {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Social */
+
+.social {  
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    margin: auto;
+}
+
+.social img{
+    height: 2.5rem;
+    width: auto;
+    padding: 0.2rem;
+}

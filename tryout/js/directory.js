@@ -46,7 +46,6 @@ function buildBusinessCards(data) {
     card.append(address);
     card.append(phone);
     card.append(webpage);
-    card.append(membership);
     cards.append(card);
   });
 }

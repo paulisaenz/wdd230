@@ -1,0 +1,42 @@
+@media only screen and (min-width: 64rem) {
+
+    /* Header */
+    .logo img {
+        width: 18%;
+    }
+
+
+    /* Nav bar */
+    
+    nav{
+        width: 100%;
+        background-color: #00A5DF;
+    }
+    
+    nav button {
+        display: none;
+    }
+    
+    nav ul#primaryNav {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 2vw;
+    }
+    
+    nav ul li a{
+        border: none;
+        padding: 1rem 9rem;
+    }
+
+    .infologo {
+        margin: 0 2rem 0.5rem;
+    }
+
+    .infologo p {
+        margin: auto;
+    }
+
+    .lpfooterimg {
+        width: 10%;
+    }
+}
