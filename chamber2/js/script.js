@@ -32,6 +32,8 @@ let d = new Date().getDay();
 const banner = document.querySelector("#banner");
 if (d === 1 || d === 2) {
     banner.style.display = "block;"
+} else {
+	banner.style.display = "hidden";
 }
 
 // const close = document.querySelector("#closebutton");
@@ -42,6 +44,7 @@ if (d === 1 || d === 2) {
 
 // initialize display elements
 // const todayDisplay = document.querySelector(".today");
+
 const visitsDisplay = document.querySelector(".visits");
 
 // get the stored value in localStorage

@@ -22,38 +22,32 @@
         🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
         <!-- <span class="closebutton">&times;</span> -->
       </div>
-      <div class="logo">
-        <img
-          src="img/laplata_logo_white.svg"
-          alt="La Plata Chamber of Commerce Logo"
-        />
-        <section class="headings">
-          <h1>
-            La Plata
-            <p class="phrase">Chamber of Commerce</p>
-          </h1>
-        </section>
-      </div>
-      <nav>
-        <button id="hamburgerButton">
-          <span>&#9776;</span>
-          <span>&times;</span>
-        </button>
-        <ul id="primaryNav">
-          <!-- <li class="hamMenu"><a href="#">Menu</a></li> -->
-          <li><a href="discover.html">Discover</a></li>
-          <li><a href="directory.html">Directory</a></li>
-          <li><a href="join.html">Join</a></li>
-          <li><a href="./">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="social">
-        <a href="https://www.facebook.com/"
-          ><img src="img/facebook-01.svg" alt="Facebook"
-        /></a>
-        <a href="https://www.linkedin.com/"
-          ><img src="img/linkedin-01.svg" alt="LinkedIn"
-        /></a>
+      <div id="row1">
+        <div class="logo">
+          <img
+            src="img/laplata_logo_white.svg"
+            alt="La Plata Chamber of Commerce Logo"
+          />
+          <section class="headings">
+            <h1>
+              La Plata
+              <p class="phrase">Chamber of Commerce</p>
+            </h1>
+          </section>
+        </div>
+        <nav>
+          <button id="hamburgerButton">
+            <span>&#9776;</span>
+            <span>&times;</span>
+          </button>
+          <ul id="primaryNav">
+            <!-- <li class="hamMenu"><a href="#">Menu</a></li> -->
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="./">Contact</a></li>
+          </ul>
+        </nav>
       </div>
       <div class="date"></div>
     </header>
@@ -82,8 +76,8 @@
         <h4 id="current-weather"></h4>
         <p id="current-temp"></p>
         <figure>
-            <img src="" alt="" id="weather-icon" />
-            <figcaption></figcaption>
+          <img src="" alt="" id="weather-icon" />
+          <figcaption></figcaption>
         </figure>
         <!-- <img src="img/weather.png" alt="Partly Cloudy image" /> -->
         <hr />
@@ -98,13 +92,13 @@
           sought-after products?
         </h3>
         <p>
-    
           Sales related to the celebration of Father's Day grew 1.4% this year
           compared to 2021 in the measurement at constant prices, with the
           clothing and cell phone items as the most sought after, the Argentine
           Confederation of Medium-Sized Enterprises (CAME) reported this Sunday.
           <br />
-          <b>"Smaller products were sold than last year, and in many families,
+          <b
+            >"Smaller products were sold than last year, and in many families,
             the gift was a trip for the long weekend,"</b
           >
           said CAME, with an average expense receipt of $6,880.
@@ -153,16 +147,26 @@
         <img
           src="img/laplata_logo.svg"
           alt="La Plata Chamber of Commerce Logo"
+          class="lpfooterimg"
         />
-        <h4>La Plata Chamber of Commerce</h4>
         <p>
+          <b>Address</b><br />
           8 & 50<br />
           La Plata, Buenos Aires
         </p>
         <p class="contactinfo">
+          <b>Contact Information</b><br />
           info@laplatachamber.com <br />
           +54 9 221 437-1973
         </p>
+        <div class="social">
+          <a href="https://www.facebook.com/"
+            ><img src="img/facebook-01.svg" alt="Facebook"
+          /></a>
+          <a href="https://www.linkedin.com/"
+            ><img src="img/linkedin-01.svg" alt="LinkedIn"
+          /></a>
+        </div>
       </div>
       <hr />
       <div class="projectdata1">
@@ -175,7 +179,6 @@
       </div>
       <p id="lastmodification"></p>
     </footer>
-
     <script src="js/script.js"></script>
     <script src="js/weatherapi.js"></script>
   </body>

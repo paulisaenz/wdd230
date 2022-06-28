@@ -1,7 +1,32 @@
 @media only screen and (min-width: 35rem) {
     
+    /*Header*/
+
+    #row1 {
+        display: grid; 
+    }
+
+    header {
+        background: #00A5DF;
+        color:whitesmoke;
+        width: 100%;
+        align-items: center;
+        font-family: "Raleway", sans-serif, "Helvetica", "Arial";
+        font-size: 0.9em;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin: 2rem 0 0 2rem;
+        justify-content: flex-start;
+        gap: 4rem;
+    }
+
     .logo img {
-        width: 30%;
+        width: 20%;
     }
 
     #home-page {
@@ -68,10 +93,12 @@
     .infologo {
         grid-row: 1/2;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
     }
 
-    .infologo img {
+    .lpfooterimg {
+        width: 20%;
         padding: 0.5rem;
     }
 
@@ -93,6 +120,12 @@
 
     .footer hr {
         display: none;
+    }
+
+    .social {
+        gap: 0.3rem;
+        margin: 0.12rem;
+        align-items: center;
     }
 }
 
