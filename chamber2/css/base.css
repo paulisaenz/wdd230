@@ -369,7 +369,88 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
-/* Footer */
+/* Directory Page */
+
+.menu {
+	margin: 1rem auto;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.menu button {
+    margin: 0.5rem;
+	padding: 1rem;
+}
+
+.maincards {
+	border: 1px solid #be6e46ad;
+	padding: 0.5rem;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease-out;
+}
+    
+.maincards:hover {
+    background-color: #be6e46a1;
+}
+
+.cards {
+	display: grid;
+    margin: 0 6rem 6rem 6rem;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	align-items: center;
+    font-family: "Raleway", sans-serif, "Helvetica", "Arial";
+    grid-gap: 1rem;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+section h3 {
+	font-size: 1.5rem;
+}
+
+section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.9rem;
+}
+
+.card-img {
+	height: 90px;
+	max-width: 100%;
+    margin-top: 0.5rem;
+}
+
+@media (min-width: 700px) {
+	.list section img {
+		display: block;
+	}
+}
 
 /* Footer */
 
