@@ -39,29 +39,52 @@
           <ul id="primaryNav">
             <!-- <li class="hamMenu"><a href="#">Menu</a></li> -->
             <li><a href="index.html">Home</a></li>
-            <li><a href="./">Discover</a></li>
+            <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="./">Contact</a></li>
           </ul>
         </nav>
       </div>
       <div class="date"></div>
     </header>
-    <main class="discover-page">
-      <div class="discover-gallery">
-        <img src="" data-src="img/discover-page/discover-1.jpg" alt="" />
-        <img src="" data-src="img/discover-page/discover-2.jpg" alt="" />
-        <img src="" data-src="img/discover-page/discover-3.jpg" alt="" />
-        <img src="" data-src="img/discover-page/discover-4.jpg" alt="" />
-      </div>
 
-      <p>
-        <span class="label">Number of Visits: </span
-        ><span class="visits"></span>
-      </p>
-      <!-- <p>Days since last visit: <span class="today"></span></p> -->
+    <main id="contact-page">
+        <div class="membership-form">
+            <h1>Contact us!</h1>
+            <form method="get" action="thankyou-contact.html">
+              <fieldset>
+                <label class="top"
+                  >Name*<input type="text" name="fname" required
+                /></label>
+    
+                <label class="top"
+                  >Email*<input
+                    type="email"
+                    name="email"
+                    placeholder="youremail@email.com"
+                    required
+                /></label>
+    
+                <label class="top"
+                  >Phone <input type="tel" name="phone" placeholder="1235551234"
+                /></label>    
+    
+                <label class="top"
+                  >Write your message for us!
+                  <textarea
+                    name="businessDescripion"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </label>
+              </fieldset>
+    
+              <input type="submit" value="Submit your message" class="submitBtn" />
+            </form>
+          </div>
     </main>
+
     <footer class="site-footer">
       <div class="infologo">
         <img
@@ -99,8 +122,6 @@
       </div>
       <p id="lastmodification"></p>
     </footer>
-
-    <script src="js/lazy-load.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

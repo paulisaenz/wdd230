@@ -452,6 +452,20 @@ section a {
 	}
 }
 
+
+/* Contact Page */
+
+/* Contact Thank You Page */
+
+.contact-thanks {
+    margin: 3rem;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+.contact-thanks p {
+    font-family: "Esteban", serif;
+}
+
 /* Footer */
 
 footer{
