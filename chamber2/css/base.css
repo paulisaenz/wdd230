@@ -6,10 +6,19 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
+
+html {
+    width: 100%;
+    min-height: 100vh;
+}
+
 body{
     padding: 0;
     margin: 0;
+    width: 100%;
+    min-height: 100vh;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif, "Helvetica", "Arial";
 }
@@ -460,6 +469,7 @@ section a {
 .contact-thanks {
     margin: 3rem;
     font-family: "Roboto", Arial, sans-serif;
+    min-height: calc(100vh - 43rem);
 }
 
 .contact-thanks p {
@@ -477,7 +487,6 @@ footer{
     text-align: center;
     font-family: "Raleway", sans-serif, "Helvetica", "Arial";
     font-size: 0.9em;
-
 }
 
 .infologo {
