@@ -84,6 +84,13 @@
         grid-column: 3/4;
     }
   
+
+    /* Directory */
+    .cards {
+        margin: 0 6rem 6rem 6rem;
+    }
+
+
     /* Footer */
 
     footer {

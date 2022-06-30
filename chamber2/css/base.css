@@ -47,7 +47,7 @@ header {
 
 /* Banner */
 .banner {
-    display: hidden;
+    display: none;
     align-items: start;
     width: 100%;
     margin: 0 auto;
@@ -407,7 +407,7 @@ form label.top input:required:valid {
 
 .cards {
 	display: grid;
-    margin: 0 6rem 6rem 6rem;
+    margin: 0 1rem 1rem 1rem;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	align-items: center;
     font-family: "Raleway", sans-serif, "Helvetica", "Arial";
