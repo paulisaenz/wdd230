@@ -120,9 +120,30 @@
 
     /* Directory */
     .cards {
-        margin: 0 6rem 6rem 6rem;
+        margin: 6rem;
     }
 
+
+    /* Contact */
+    #contact-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+
+    .contactInfo{
+        grid-column: 2/3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .membership-form {
+        margin-left: 2rem;
+    }
 
     /* Footer */
 

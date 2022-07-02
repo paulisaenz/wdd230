@@ -28,7 +28,6 @@ header {
     background: #00A5DF;
     color:whitesmoke;
     width: 100%;
-    align-items: center;
     font-family: "Raleway", sans-serif, "Helvetica", "Arial";
     font-size: 0.9em;
     display: grid;
@@ -371,7 +370,7 @@ form label.sbs {
     font-size: 0.9rem;
 }
 
-form input.submitBtn {
+form input.submitBtn, .homebtn {
     border: none;
     background-color: #00A5DF;
     color: white;
@@ -382,7 +381,9 @@ form input.submitBtn {
     max-width: 20rem;
     font-family: "Raleway", sans-serif, "Helvetica", "Arial";
     font-weight: 600;
+    text-decoration: none;
 }
+
 
 form label.top input:required {
     border-left: #9c2c13 solid 6px;
@@ -421,7 +422,7 @@ form label.top input:required:valid {
 
 .cards {
 	display: grid;
-    margin: 0 1rem 1rem 1rem;
+    margin: 1rem;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	align-items: center;
     font-family: "Raleway", sans-serif, "Helvetica", "Arial";
@@ -477,6 +478,13 @@ section a {
 
 
 /* Contact Page */
+.contactInfo{
+    margin: 2rem;
+}
+
+.contactInfo p{
+    font-family: "Esteban", serif;
+}
 
 /* Contact Thank You Page */
 
