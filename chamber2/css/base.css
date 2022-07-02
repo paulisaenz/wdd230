@@ -291,6 +291,18 @@ hr {
     margin: 0.3rem;
 }
 
+.thingstoknow, .tourism {
+    padding: 1rem;
+}
+
+.label {
+     padding-left: 1rem;
+}
+
+.discovery-title {
+    text-align: center;
+}
+
 .discover-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -299,13 +311,12 @@ hr {
     size: 100%;
 }
 
+
 .discover-gallery img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
-
 
 /*Form*/
 
@@ -487,6 +498,11 @@ footer{
     text-align: center;
     font-family: "Raleway", sans-serif, "Helvetica", "Arial";
     font-size: 0.9em;
+}
+
+.map {
+    color: white;
+    text-decoration: none;
 }
 
 .infologo {

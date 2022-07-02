@@ -85,6 +85,25 @@
     }
   
 
+    /* Discover */
+
+    .info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+        padding: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .thingstoknow{
+        grid-column: 1/2;
+    }
+    
+    .tourism {
+        grid-column: 2/3;
+    }
+
+
     /* Directory */
     .cards {
         margin: 0 6rem 6rem 6rem;
