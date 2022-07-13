@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Temple Inn & Suites</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="current-date"></div>
+      <nav>
+        <img
+          class="nav-logo"
+          src="img/logo.svg"
+          alt="The Temple and Suites logo"
+        />
+        <button id="hmbrBtn">
+          <span>&#9776;</span>
+          <span>&times;</span>
+        </button>
+
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li>
+            <a class="bookingBtnlist" href="booking.html">Book now!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="index-main">
+      <div class="mainimg">
+        <img class="heroimg" src="img/temple2.jpg" alt="LDS Temple" />
+        <img class="top" src="img/degrade.png" alt="Ombré" />
+        <h1 class="heroimg-title">The Temple Inn & Suites</h1>
+      </div>
+      <div class="templeinfo">
+        <h1>About us</h1>
+        <p>
+          <b>The Temple Inn & Suites</b> is a hotel chain headquartered in
+          Bethesda, MD that builds and manages specialized hotel accommodations
+          near temple locations of The Church of Jesus Christ of Latter-day
+          Saints around the world. The owner-operated company caters to temple
+          workers, patrons, and their families by providing specialized services
+          and accommodations that meet the needs of those patrons. <br />
+          <br />
+          Our overall goal is to provide services in our hotel chain to meet
+          your needs, whether you are a temple patrons who comes to serve in the
+          temple or if you come to participate in events such as sealings,
+          weddings, receptions, and youth trips. We want you to be comfortable,
+          with all the facilities and servicies you need to
+          <b>serve better</b> in The House of The Lord.
+        </p>
+      </div>
+      <div class="weather">
+        <h1>Weather</h1>
+        <figure>
+          <img src="" alt="" id="weather-icon" />
+          <figcaption></figcaption>
+        </figure>
+        <h4 id="current-weather"></h4>
+        <p id="current-temp"></p>
+        <p id="humidity"></p>
+        <hr />
+        <h6>Source: OpenWeatherMap</h6>
+      </div>
+
+      <img class="home-decorativeimg" src="img/temple3.jpg" alt="" />
+
+      <div class="contactinfo">
+        <h1>Want to stay with us?</h1>
+        <p>
+          If you are visiting a Temple, don't think it twice! We are here to
+          help you out with your stay. Don't hersitate on contacting us!
+        </p>
+        <p>
+          <b>
+            info@thetemplesuits.com <br />
+            301-402-0105</b
+          >
+        </p>
+        <a href="booking.html">Book now!</a>
+      </div>
+    </main>
+
+    <footer>
+      <div class="infologo">
+        <p class="foot-contactinfo">
+          <b>Contact Information</b><br />
+          4800 Montgomery Ln #300, Bethesda, MD 20814 <br />
+          info@thetemplesuits.com <br />
+          301-402-0105
+        </p>
+        <div class="social">
+          <p><b>Social Media</b></p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/"
+              ><img src="img/facebook-01.svg" alt="Facebook"
+            /></a>
+            <a href="https://www.linkedin.com/"
+              ><img src="img/linkedin-01.svg" alt="LinkedIn"
+            /></a>
+          </div>
+        </div>
+        <div class="imgandname">
+        <img
+          src="img/logo.svg"
+          alt="The Temple and Suites logo"
+          class="foot-logo"
+        />
+        <h2 class="imgname-footer">The Temple Inn & Suites</h2>
+      </div>
+    </div>
+      <hr />
+      <div class="projectdata1">
+        <p>
+          &copy; 2022 The Temple Inn & Suites ⋅ Paula Sáenz ⋅ WDD 230 Project
+        </p>
+      </div>
+      <p id="lastmodification"></p>
+    </footer>
+
+    <script src="js/main-script.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

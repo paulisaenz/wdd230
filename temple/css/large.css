@@ -1,0 +1,104 @@
+@media only screen and (min-width: 64rem) {
+  /* ------ Nav Bar ------ */
+
+
+  nav button {
+    display: none;
+  }
+
+  nav ul#primaryNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 2vw;
+  }
+
+  nav ul li a {
+    color: #9ecfe5;
+    margin: 0 2rem;
+  }
+
+  .nav-logo {
+    width: 4%;
+    height: auto;
+    margin-left: 1rem;
+  }
+
+  .bookingBtnlist {
+    background-color: #fdc333;
+    padding: 1rem;
+    border-radius: 0.3em;
+    color: white;
+  }
+
+  /* ------ Index Main ------ */
+
+  .index-main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .mainimg {
+    grid-column: 1/4;
+    margin: 0;
+  }
+
+  .heroimg-title {
+    padding-left: 2rem;
+    padding-top: 0;
+    font-size: 6rem;
+  }
+
+  /* About Us */
+
+  .templeinfo {
+    grid-column: 1/3;
+    text-align: left;
+    margin: auto 2rem;
+  }
+
+  /* Weather */
+
+  .weather {
+    grid-column: 3/4;
+    text-align: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.24);
+  }
+
+  /* Decorative image */
+
+  .home-decorativeimg {
+    grid-column: 1/3;
+  }
+
+  /* Contact info */
+
+  .contactinfo {
+    grid-column: 3/4;
+    grid-row: auto;
+    margin: auto 1.5rem;
+  }
+
+  /* ------ Footer ------ */
+
+  .infologo {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .social {
+    order: 1;
+  }
+
+  .foot-contactinfo {
+    order: 2;
+    margin-left: 10rem;
+  }
+
+  .imgandname {
+    order: 3;
+  }
+
+  .foot-logo {
+    width: 15%;
+  }
+}
