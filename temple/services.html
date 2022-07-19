@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
-    
-    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="shortcut icon" href="favicon.ico" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,11 +18,91 @@
       href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/a05bb5dc37.js" crossorigin="anonymous"></script>
   </head>
-  <body>
-    <header></header>
 
-    <main></main>
+  <body>
+    <header>
+      <div class="current-date"></div>
+      <nav>
+        <img
+          class="nav-logo"
+          src="img/logo.svg"
+          alt="The Temple and Suites logo"
+        />
+        <button id="hmbrBtn">
+          <span>&#9776;</span>
+          <span>&times;</span>
+        </button>
+
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li>
+            <a class="bookingBtnlist" href="booking.html">Book now!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="services-main">
+      <div class="services">
+        <h1>Specialized Services</h1>
+        <li>
+          <ul>
+            Free access to changing rooms and bathroom facilities for temple
+            patrons who have traveled far and need to change to and from church
+            clothes
+          </ul> <br>
+          <ul>
+            A playroom and low-cost, short-term babysitting services for the
+            children of patrons
+          </ul><br>
+          <ul>
+            Long-term stay accommodations in kitchenette suites for full-time
+            temple missionaries
+          </ul><br>
+          <ul>
+            Temple history themed reception and sitting area
+          </ul><br>
+          <ul>
+            A wedding reception hall that can be easily customized with a simple
+            catering menu and kitchen access for food preparation and serving
+          </ul><br>
+          <ul>
+            A family search center that supports family search and ordinance
+            work
+          </ul><br>
+        </li>
+      </div>
+      <div clas="amenities">
+        <h1>Free Amenities</h1>
+        <li>
+          <ul>
+            <i class="fa-solid fa-pancakes"></i>Breakfast
+          </ul><br>
+          <ul>
+            Exercise/workout room
+          </ul><br>
+          <ul>
+            Indoor pool
+          </ul><br>
+          <ul>
+            WiFi high-speed internet access and smart TVs
+          </ul><br>
+          <ul>
+            Parking
+          </ul><br>
+          <ul>
+            Temple shuttle
+          </ul><br>
+          <ul>
+            Family history consultation and family ordinance card service
+          </ul><br>
+        </li>
+      </div>
+    </main>
 
     <footer>
       <div class="infologo">
@@ -43,12 +123,14 @@
             /></a>
           </div>
         </div>
-        <img
-          src="img/logo.svg"
-          alt="The Temple and Suites logo"
-          class="foot-logo"
-        />
-        <h2 class="imgname-footer">The Temple Inn & Suites</h2>
+        <div class="imgandname">
+          <img
+            src="img/logo.svg"
+            alt="The Temple and Suites logo"
+            class="foot-logo"
+          />
+          <h2 class="imgname-footer">The Temple Inn & Suites</h2>
+        </div>
       </div>
       <hr />
       <div class="projectdata1">
@@ -58,5 +140,8 @@
       </div>
       <p id="lastmodification"></p>
     </footer>
+
+    <script src="js/main-script.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>

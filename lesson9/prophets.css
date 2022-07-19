@@ -58,11 +58,11 @@ section {
   align-items: center;
 }
 
-img {
+.templesimg {
   width: auto;
-  max-width: 325px;
-  height: 200px;
-  padding: 1rem;
+  max-width: 500px;
+  height: 400px;
+  padding: 0.5rem;
 }
 
 

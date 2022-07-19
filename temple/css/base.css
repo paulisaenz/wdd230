@@ -254,6 +254,86 @@ nav ul.open {
     margin: auto;
 }
 
+
+/* ------ Temples Page ------ */
+
+.temple-title {
+    text-align: center;
+    font-size: 3rem;
+    color: #99c667;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.cardsTemples {
+    margin: 0.4rem;
+    padding: 0 1.5rem;
+    padding-bottom: 1rem;
+    background-color: #ebdac8;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.templesimg {
+    width: auto;
+    max-width: 300px;
+    height: 200px;
+    padding: 0;
+}
+
+.cardsTemples p {
+    font-family: "Mulish", sans-serif, "Helvetica", "Arial";
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.cardsTemples h2{
+    margin: 1rem auto;
+    text-align: center;
+}
+
+
+/* ------ Services Page ------ */
+
+.services-main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 2fr);
+    margin: 0 2rem 3rem;
+}
+
+.services-main li {
+    list-style-type: none;
+}
+
+.services {
+    grid-row: 1/2;
+    margin-bottom: 2rem;
+}
+
+.amenities{
+    grid-row: 2/3;
+}
+
+.services-main ul {
+    font-family: "Mulish", sans-serif, "Helvetica", "Arial";
+    line-height: 1.5rem;
+    list-style-type: circle;
+    margin: 0;
+    padding: 0;
+}
+
 /* ------ Footer ------ */
 
 footer {

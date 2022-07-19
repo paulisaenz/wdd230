@@ -1,0 +1,52 @@
+{
+  "temples": [
+    {
+      "name": "Buenos Aires Argentina Temple",
+      "address": "Aut. Tte. Gral. Riccheri N° 4955 - B1778DUA Ciudad Evita - Buenos Aires, Argentina",
+      "phone": "(54) 11-4693-9700",
+      "imageurl": "https://assets.ldscdn.org/9a/a4/9aa47f12b3dee10a44c03ce1928aadfffe0acd57/buenos_aires_argentina_temple.jpg",
+      "services": "Clothing rental available - No cafeteria available - Patron housing available - Distribution center nearby",
+      "history": "The Buenos Aires Argentina Temple was the fourth temple built in South America and the first built in Argentina. Elder Melvin J. Ballard of the Quorum of the Twelve Apostles made a historic visit to Buenos Aires on Christmas Day in 1925 to dedicate all of South America for the preaching of the gospel. Ground was broken for the Buenos Aires Argentina Temple on April 20, 1983. Elder Bruce R. McConkie of the Quorum of the Twelve Apostles presided. He passed away two years later on April 19, 1985, just eight months before the open house of the temple began.",
+      "email": "BAIRE-OFF@ChurchOfJesusChrist.org",
+      "ordinance": "09:00hs - 10:00hs • 11:00hs - 12:00hs • 17:30hs - 18:30hs • 19:30hs - 20:30hs",
+      "session": "09:00hs • 10:00hs • 18:00hs • 18:45hs • 19:30hs • 20:15hs",
+      "closure": "21:00hs"
+    },
+    {
+      "name": "Rome Italy Temple",
+      "address": "Via di Settebagni 376 - Rome RM - Italy",
+      "phone": "(39) 06-9480-5050",
+      "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/2019/1280x800/4-Rome-Temple-2160935.jpg",
+      "services": "Clothing rental available - No cafeteria available - Patron housing available - Distribution center nearby",
+      "history": "The Rome Italy Temple was the thirteenth temple built on the continent of Europe and the first built in the country of Italy. The Rome Italy Temple was built on the site of an Italian villetta, which had served for a time as an apartment for full-time missionaries. The on-site office trailers used in the construction of the Rome Italy Temple were donated to community organizations once the office space could be relocated to the completed patron housing facility. The dedication of the Rome Italy Temple marked the first time that the entire First Presidency and Quorum of the Twelve Apostles gathered to one location outside the United States.",
+      "email": "ROMEI-OFF@ChurchOfJesusChrist.org",
+      "ordinance": "08:30hs - 09:30hs • 11:00hs - 12:00hs • 15:30hs - 16:30hs • 17:00hs - 18:00hs",
+      "session": "09:30hs • 11:30hs • 16:30hs",
+      "closure": "19:00hs"
+    },
+    {
+      "name": "Nauvoo Illinois Temple",
+      "address": "50 N Wells St - Nauvoo IL 62354 - United States",
+      "phone": "(1) 217-453-6252",
+      "imageurl": "https://assets.ldscdn.org/e6/49/e649267e9549f7693e589079317d987069b799da/nauvoo_temple_lds.jpg",
+      "history": "The Nauvoo Illinois Temple is a reconstruction of the original Nauvoo Temple built in the 1840s and destroyed by fire in 1848. The Nauvoo Illinois Temple is the second of the currently operating temples built in Illinois, following the Chicago Illinois Temple (1985). Unlike many temples of The Church of Jesus Christ of Latter-day Saints, the Nauvoo Illinois Temple and its statue of the angel Moroni face west, overlooking the Mississippi River. The largest temple baptismal font in the Church is located in the Nauvoo Illinois Temple. The Nauvoo Illinois Temple features beautiful hand-painted murals on the walls of its progressive-style ordinance rooms: Creation Room, Garden Room, World Room, Terrestrial Room (no murals), and Celestial Room (no murals).",
+      "services": "No rental available - Cafeteria available - Patron housing available - No distribution center nearby",
+      "email": "NAUV2-OFF@ChurchOfJesusChrist.org",
+      "ordinance": "07:00hs - 08:00hs • 08:00hs - 16:00hs • 16:00hs - 17:00hs • 17:00hs - 19:00hs",
+      "session": "08:00hs • 09:00hs • 10:00hs • 11:00hs • 12:00hs • 13:00hs • 14:00hs • 15:00hs • 16:00hs • 17:00hs • 18:00hs",
+      "closure": "19:30hs"
+    },
+    {
+      "name": "Kyiv Ukraine Temple",
+      "address": "1 Yabluneva Street - v. Sofiivs’ka Borshchagivka - Kyevo-Sviatoshyns’ky Rayon, Kyivs’ka - Oblast, 08131, Ukraine",
+      "phone": "(380) 44-371-4088",
+      "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/kyiv-ukraine/1280x800/kyiv-ukraine-temple-lds-774302-wallpaper.jpg",
+      "services": "No clothing rental available - No cafeteria available - Patron housing available - Distribution center nearby",
+      "history": "The Kyiv Ukraine Temple was the eleventh temple built in Europe and the first built in Ukraine and in the former Soviet Union. On September 12, 1991, Elder Boyd K. Packer of the Quorum of the Twelve Apostles stood on a hillside near the center of Kyiv and offered a prayer of dedication and blessing upon Ukraine. President Thomas S. Monson dedicated the Kyiv Ukraine Temple in three sessions on Sunday, August 29, 2010. He described the day as a 'landmark in the maturation of the Church in Eastern Europe.' In his dedicatory prayer, he asked for the protection of the temple from harm.",
+      "email": "KYIV-OFF@ChurchOfJesusChrist.org",
+      "ordinance": "Temporaly closed",
+      "session": "Temporaly closed",
+      "closure": "20:00hs regularly, but now is temporaly closed"
+    }
+  ]
+}

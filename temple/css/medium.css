@@ -1,0 +1,26 @@
+@media only screen and (min-width: 35rem) {
+
+
+/* ------ Temples Page ------ */
+
+.cards {
+    margin: 3rem;
+}
+
+/* ------ Services Page ------ */
+
+.services-main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+}
+
+.services {
+    grid-column: 1/2;
+}
+
+.amenities{
+    grid-column: 1/2;
+}
+
+}

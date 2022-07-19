@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
-    
+
     <link rel="shortcut icon" href="favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,9 +19,37 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
-    <header></header>
-    <main></main>
+    <header>
+      <div class="current-date"></div>
+      <nav>
+        <img
+          class="nav-logo"
+          src="img/logo.svg"
+          alt="The Temple and Suites logo"
+        />
+        <button id="hmbrBtn">
+          <span>&#9776;</span>
+          <span>&times;</span>
+        </button>
+
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li>
+            <a class="bookingBtnlist" href="booking.html">Book now!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="booking-main">
+
+
+    </main>
+
     <footer>
       <div class="infologo">
         <p class="foot-contactinfo">
@@ -41,6 +69,7 @@
             /></a>
           </div>
         </div>
+        <div class="imgandname">
         <img
           src="img/logo.svg"
           alt="The Temple and Suites logo"
@@ -48,6 +77,7 @@
         />
         <h2 class="imgname-footer">The Temple Inn & Suites</h2>
       </div>
+    </div>
       <hr />
       <div class="projectdata1">
         <p>
@@ -56,5 +86,8 @@
       </div>
       <p id="lastmodification"></p>
     </footer>
+
+    <script src="js/main-script.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>
