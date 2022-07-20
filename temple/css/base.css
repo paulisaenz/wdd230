@@ -41,7 +41,6 @@ p {
 /* ------ Current date ------ */
 .current-date {
   padding: 1rem;
-  margin-bottom: 2rem;
   text-align: center;
   background-color: #9ecfe5;
   font-family: "Crimson Pro", serif, "Times";
