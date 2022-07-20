@@ -80,7 +80,7 @@ const listenForLikes = () => {
             event.target.classList.toggle("like-no");
             event.target.classList.toggle("like-yes");
             if (event.target.classList.contains("like-yes")) {
-                console.log("Adding Favorite");
+                console.log("Adding fav");
             } else {
                 console.log("Removing Favorite");
     
