@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
 
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -46,8 +46,69 @@
     </header>
 
     <main class="booking-main">
+      <h1 class="booking-title">Book your rooms now!</h1>
+      <div class="booking-form">
+        <form method="get" action="thankyou.html">
+          <div class="booking-grid">
+          <div class="templeinfo-booking">
+          <fieldset>
+            <legend>Temple Information</legend>
+            <label class="top"
+              >Location*<input type="text" name="location" required
+            /></label>
+            <label class="top">Date*<input type="date" name="date" /></label>
 
+            <label class="top"
+              >Number of days staying*<input type="number" name="days" placeholder="0" min="1" required
+            /></label>
 
+            <label class="top"
+              >Number of rooms*<input type="number" name="rooms" placeholder="0" min="1" required
+            /></label>
+            <label class="top"
+              >Type of rooms*<input type="text" name="roomstype" required
+            /></label>
+            <label class="top"
+              >Special accomodations
+              <textarea
+                name="specialAccomodations"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </label>
+          </fieldset>
+        </div>
+        <div class="personalinfo">
+          <fieldset>
+            <legend>Personal Information for the Booking</legend>
+            <label class="top"
+              >First Name*<input type="text" name="fname" required
+            /></label>
+            <label class="top"
+              >Last Name*<input type="text" name="lname" required
+            /></label>
+
+            <label class="top"
+              >Email*<input
+                type="email"
+                name="email"
+                placeholder="youremail@email.com"
+                required
+            /></label>
+
+            <label class="top"
+              >Phone <input type="tel" name="phone" placeholder="1235551234"
+            /></label>
+            <label class="top"
+              >Country<input type="text" name="fname" required
+            /></label>
+          </fieldset>
+        </div>
+        </div>
+
+          <input type="submit" value="Book my rooms now!" class="submitBtn" />
+        </form>
+      </div>
     </main>
 
     <footer>
@@ -70,14 +131,14 @@
           </div>
         </div>
         <div class="imgandname">
-        <img
-          src="img/logo.svg"
-          alt="The Temple and Suites logo"
-          class="foot-logo"
-        />
-        <h2 class="imgname-footer">The Temple Inn & Suites</h2>
+          <img
+            src="img/logo.svg"
+            alt="The Temple and Suites logo"
+            class="foot-logo"
+          />
+          <h2 class="imgname-footer">The Temple Inn & Suites</h2>
+        </div>
       </div>
-    </div>
       <hr />
       <div class="projectdata1">
         <p>

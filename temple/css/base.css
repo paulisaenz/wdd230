@@ -1,390 +1,513 @@
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.*/
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
 
 /* Apply a natural box layout model to all elements */
 * {
-    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    width: 100%;
-    min-height: 100vh;
+  width: 100%;
+  min-height: 100vh;
 }
 
-body{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    min-height: 100vh;
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Crimson Pro", serif, "Times";
-    font-weight: 600;
-    font-style: italic;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Crimson Pro", serif, "Times";
+  font-weight: 600;
+  font-style: italic;
 }
 
-
-
+p {
+  font-family: "Mulish", sans-serif, "Helvetica", "Arial";
+}
 
 /* ------ Current date ------ */
 .current-date {
-    padding: 1rem; 
-    margin-bottom: 2rem;
-    text-align: center;
-    background-color: #9ecfe5;
-    font-family: "Crimson Pro", serif, "Times";
-    font-weight: 300;
-    font-size: 1.25rem;
-    color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  background-color: #9ecfe5;
+  font-family: "Crimson Pro", serif, "Times";
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: white;
 }
 
 /* ------ Nav Bar ------ */
 nav {
-	margin: 0 auto;
-    padding: 1rem;
-	max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
 
 .nav-logo {
-    width: 15%;
-	height: auto;
+  width: 15%;
+  height: auto;
 }
 
 nav ul {
-    display: none;
-	list-style-type: none;
-	overflow: hidden;
-    padding: 0;
+  display: none;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
 }
 
 nav ul li a {
-    font-family: "Mulish", sans-serif, "Helvetica", "Arial";
-    font-weight: 700;
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
-	transition: 0.5s;
+  font-family: "Mulish", sans-serif, "Helvetica", "Arial";
+  font-weight: 700;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: 0.5s;
 }
 
 nav a:hover {
-    color: #fdc333
+  color: #fdc333;
 }
 
 .active {
-	background-color: #775253;
+  background-color: #775253;
 }
 
 nav ul.open {
-    display: block;
-    background-color:  #ebdac8;
-    padding: 2rem;
-    color: white;
-    float: none;
+  display: block;
+  background-color: #ebdac8;
+  padding: 2rem;
+  color: white;
+  float: none;
 }
 
 #hmbrBtn {
-    background-color: #ebdac8;
-    border-style: none;
-    border-radius: 0.3em;
-    height: 2rem;
+  background-color: #ebdac8;
+  border-style: none;
+  border-radius: 0.3em;
+  height: 2rem;
 }
 
 #hmbrBtn span:nth-child(1) {
-    display: block;
-    color: white;
-    padding: 0.2rem;
+  display: block;
+  color: white;
+  padding: 0.2rem;
 }
 
 #hmbrBtn span:nth-child(2) {
-    display: none;
-    color: white;
-    padding: 0.2rem;
+  display: none;
+  color: white;
+  padding: 0.2rem;
 }
 
-
 #hmbrBtn.open span:nth-child(1) {
-    display: none;
-    color: white;
-    padding: 0.2rem;
+  display: none;
+  color: white;
+  padding: 0.2rem;
 }
 
 #hmbrBtn.open span:nth-child(2) {
-    display: block;
-    color: white;
-    padding: 0.2rem;
+  display: block;
+  color: white;
+  padding: 0.2rem;
 }
 
 .bookingBtnlist {
-    background-color: white;
-    padding: 0.5rem;
-    border-radius: 0.3em;
-    color: #fdc333;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.3em;
+  color: #fdc333;
 }
 
 .bookingBtn {
-    display: none;
+  display: none;
 }
-
 
 /* ------ Index Main ------ */
 
 .index-main {
-    display: grid;
-    grid-template-rows: minmax(0, 1fr);
+  display: grid;
+  grid-template-rows: minmax(0, 1fr);
 }
 
 .mainimg {
-    grid-row: 1/2;
-    display: grid;
-    grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
-    grid-template-columns: 1fr;
-    margin: 2rem 0;
-} 
+  grid-row: 1/2;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-columns: 1fr;
+  margin: 2rem 0;
+}
 
 .heroimg {
-    width: 100%;
-    height: auto;
-    grid-row: 1/3;
-    grid-column: 1/2;
-    position: relative;
-    z-index: -1;
+  width: 100%;
+  height: auto;
+  grid-row: 1/3;
+  grid-column: 1/2;
+  position: relative;
+  z-index: -1;
 }
 
 .top {
-    width: 100%;
-    height: auto;
-    grid-row: 1/3;
-    grid-column: 1/2;
-    position: relative;
-    z-index: 1;
+  width: 100%;
+  height: auto;
+  grid-row: 1/3;
+  grid-column: 1/2;
+  position: relative;
+  z-index: 1;
 }
 
 .heroimg-title {
-    color: #9ecfe5;
-    grid-row: 2/3;
-    grid-column: 1/2;
-    align-self: end;
-    z-index: 2;
-    padding: 2rem;
+  color: #9ecfe5;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  align-self: end;
+  z-index: 2;
+  padding: 2rem;
 }
 
 /* About Us */
 
 .templeinfo {
-    text-align: center;
-    margin: 2rem;
+  text-align: center;
+  margin: 2rem;
 }
 
 .templeinfo p {
-    font-family: "Mulish", sans-serif, "Helvetica", "Arial";
-    line-height: 1.5rem;
+  font-family: "Mulish", sans-serif, "Helvetica", "Arial";
+  line-height: 1.5rem;
 }
-
 
 /* Weather */
 
 .weather {
-    /* background-color: #9ecfe5; */
-    text-align: center;
+  /* background-color: #9ecfe5; */
+  text-align: center;
 }
 
 .weather h1 {
-    color: #fdc333;
+  color: #fdc333;
 }
 
 .weather hr {
-    width:80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
 .weather figure {
-    margin: 0;
+  margin: 0;
 }
 
-.weather p, .weather h6, .weather h4{
-    font-family: "Mulish", sans-serif, "Helvetica", "Arial";
+.weather p,
+.weather h6,
+.weather h4 {
+  font-family: "Mulish", sans-serif, "Helvetica", "Arial";
 }
 
 /* Decorative image */
 
-.home-decorativeimg{
-    width: 100%;
-    height: auto;
-    margin: 2rem 0;
+.home-decorativeimg {
+  width: 100%;
+  height: auto;
+  margin: 2rem 0;
 }
 
 /* Contact info */
 
 .contactinfo {
-    grid-row: 5/6;
-    align-items: center;
-    text-align: center;
-    margin: 0 1.5rem 3rem;
+  grid-row: 5/6;
+  align-items: center;
+  text-align: center;
+  margin: 0 1.5rem 3rem;
 }
 
 .contactinfo h1 {
-    color: #ebdac8;
+  color: #ebdac8;
 }
 
-.contactinfo p{
-    font-family: "Mulish", sans-serif, "Helvetica", "Arial";
-    line-height: 1.5rem;
+.contactinfo p {
+  font-family: "Mulish", sans-serif, "Helvetica", "Arial";
+  line-height: 1.5rem;
 }
 
 .contactinfo a {
-    background-color: #fdc333;
-    width: 40%;
-    padding: 1rem;
-    border-radius: 0.3em;
-    color: white;
-    font-family: "Mulish", sans-serif, "Helvetica", "Arial";
-    font-weight: 700;
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	transition: 0.5s;
-    margin: auto;
+  background-color: #fdc333;
+  width: 40%;
+  padding: 1rem;
+  border-radius: 0.3em;
+  color: white;
+  font-family: "Mulish", sans-serif, "Helvetica", "Arial";
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s;
+  margin: auto;
 }
-
 
 /* ------ Temples Page ------ */
 
 .temple-title {
-    text-align: center;
-    font-size: 3rem;
-    color: #99c667;
+  text-align: center;
+  font-size: 3rem;
+  color: #99c667;
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 1rem;
-    margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+  margin: 1rem;
 }
 
 .cardsTemples {
-    margin: 0.4rem;
-    padding: 0 1.5rem;
-    padding-bottom: 1rem;
-    background-color: #ebdac8;
-    display: flex;
-    flex-direction: column;
+  margin: 0.4rem;
+  padding: 0 1.5rem;
+  padding-bottom: 1rem;
+  background-color: #ebdac8;
+  display: flex;
+  flex-direction: column;
 }
 
 .titleimg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .templesimg {
-    width: auto;
-    max-width: 300px;
-    height: 200px;
-    padding: 0;
+  width: auto;
+  max-width: 300px;
+  height: 200px;
+  padding: 0;
 }
 
 .cardsTemples p {
-    font-family: "Mulish", sans-serif, "Helvetica", "Arial";
-    line-height: 1.5rem;
-    text-align: left;
+  font-family: "Mulish", sans-serif, "Helvetica", "Arial";
+  line-height: 1.5rem;
+  text-align: left;
 }
 
-.cardsTemples h2{
-    margin: 1rem auto;
-    text-align: center;
+.cardsTemples h2 {
+  margin: 1rem auto;
+  text-align: center;
 }
-
 
 /* ------ Services Page ------ */
 
 .services-main {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-rows: minmax(0, 2fr);
-    margin: 0 2rem 3rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 2fr);
+  margin: 0 2rem 3rem;
 }
 
 .services-main li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .services {
-    grid-row: 1/2;
-    margin-bottom: 2rem;
+  grid-row: 1/2;
+  margin-bottom: 2rem;
 }
 
-.amenities{
-    grid-row: 2/3;
+.amenities {
+  grid-row: 2/3;
 }
 
 .services-main ul {
-    font-family: "Mulish", sans-serif, "Helvetica", "Arial";
-    line-height: 1.5rem;
-    list-style-type: circle;
-    margin: 0;
-    padding: 0;
+  font-family: "Mulish", sans-serif, "Helvetica", "Arial";
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* ------ Booking ------ */
+
+/*  Form  */
+
+.booking-form {
+  margin: 0.6rem;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+form legend {
+  color: rgba(0, 0, 0, 0.575);
+  margin: auto;
+  padding: 0 0.5rem;
+  font-family: "Crimson Pro", serif, "Times";
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+form label.top,
+textarea {
+  display: block;
+  padding: 1rem 1.5rem 0;
+  color: black;
+  font-size: 0.85rem;
+  font-family: "Mulish", sans-serif, "Helvetica", "Arial";
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+form label.top input,
+form label.top select,
+textarea {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #ebdac8;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #ebdac84f;
+  margin: auto;
+  margin-top: 0.3rem;
+}
+
+form input.submitBtn,
+.homebtn {
+  border: none;
+  background-color: #fdc333;
+  color: white;
+  border-radius: 0.3em;
+  padding: 0.7rem 1.5rem;
+  margin: 0 0 2rem 20%;
+  max-width: 20rem;
+  font-family: "Mulish", sans-serif, "Helvetica", "Arial";
+  font-weight: 700;
+  text-decoration: none;  
+  transition: 0.5s;
+}
+
+form input.submitBtn:hover {
+    background-color: #9ecfe5;
+}
+
+.booking-title {
+    font-size: 3rem;
+    color: #99c667;
+    margin: 3rem;
+    text-align: center;
+}
+
+/* ------ Thank you page ------ */
+
+.thankyou-main {
+  min-height: calc(100vh - 43rem);
+}
+
+.thanks {
+  text-align: center;
+}
+
+.thanks h1 {
+  font-size: 3rem;
+  color: #ebdac8;
+  margin: 3rem;
+}
+
+.thanks p {
+  margin: 0 2rem 2rem;
+  line-height: 1.5rem;
+}
+
+.thanks a {
+  background-color: #fdc333;
+  width: 40%;
+  padding: 1rem;
+  border-radius: 0.3em;
+  color: white;
+  font-family: "Mulish", sans-serif, "Helvetica", "Arial";
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s;
+  margin: auto;
+  margin-bottom: 2rem;
 }
 
 /* ------ Footer ------ */
 
 footer {
-    padding: 2em;
-    background-color: #99c667;
-    color: white;
-    width: 100%;
-    align-items: center;
-    text-align: center;
-    font-family: "Mulish", sans-serif, "Helvetica", "Arial";
-    font-size: 0.9rem;
-    line-height: 1.5rem;
+  padding: 2em;
+  background-color: #99c667;
+  color: white;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  font-family: "Mulish", sans-serif, "Helvetica", "Arial";
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 
 .infologo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.social-icons{
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1.5rem;
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
 }
 
-.social-icons img{
-    height: 3rem;
-    width: auto;
-    padding: 0.2rem;
+.social-icons img {
+  height: 3rem;
+  width: auto;
+  padding: 0.2rem;
 }
 
 .foot-logo {
-    width: 15%;
-	height: auto;
+  width: 15%;
+  height: auto;
 }
 
 .imgname-footer {
-    font-family: "Crimson Pro", serif, "Times";
-    font-weight: 600;
-    font-style: italic;
-    margin-top: 0.2rem;
+  font-family: "Crimson Pro", serif, "Times";
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 0.2rem;
 }
 
 hr {
-    margin-left: 0;
-    margin-right: 0;
-    border-top: 0px;
-    border-bottom-color: white;
+  margin-left: 0;
+  margin-right: 0;
+  border-top: 0px;
+  border-bottom-color: white;
 }

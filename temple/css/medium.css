@@ -1,26 +1,72 @@
 @media only screen and (min-width: 35rem) {
+  .nav-logo {
+    width: 5%;
+  }
 
+  /* ------ Temples Page ------ */
 
-/* ------ Temples Page ------ */
-
-.cards {
+  .cards {
     margin: 3rem;
-}
+  }
 
-/* ------ Services Page ------ */
+  /* ------ Services Page ------ */
 
-.services-main {
+  .services-main {
+    margin: 0 4rem;
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     grid-template-rows: minmax(0, 1fr);
-}
+    gap: 3rem;
+  }
 
-.services {
+  .services {
     grid-column: 1/2;
-}
+  }
 
-.amenities{
+  .amenities {
     grid-column: 1/2;
-}
+  }
 
+
+  /* ------ Booking ------ */
+
+  .booking-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .templeinfo-booking {
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+
+  .personalinfo {
+    grid-column: 2/3;
+  }
+
+  form input.submitBtn,
+  .homebtn {
+    margin: 0 0 2rem 43%;
+  }
+
+  form label.top input, form label.top select, textarea {
+    max-width: 100%;
+  }
+
+  .booking-title {
+    font-size: 5rem;
+  }
+
+  /* ------ Thank you page ------ */
+  .thankyou-main {
+    min-height: calc(100vh - 35rem);
+  }
+
+  .thanks h1 {
+    font-size: 5rem;
+  }
+
+  .thanks p {
+    margin: 0 2rem 4rem;
+  }
 }
